@@ -2,7 +2,6 @@
 
 Dictation and spelling practice for iPhone/iPad — a feature-complete port of a
 Python/Tkinter desktop app (same functionality, similar UI, English-only strings).
-Source of truth for behaviour: `/Users/jialishen/Coding/Python/WordReview`.
 
 - **Dictation**: play a word/phrase from the secondary column, type what you hear.
 - **Spelling practice**: show the primary column, type the translation from the other column.
@@ -56,4 +55,3 @@ xcrun simctl launch 9EFB7FC4-1EB3-4BF8-A290-8DD366D1E8D5 com.wordreview.app
 - `Documents/Data/Wrong.csv` — wrong-answer store (7-column CSV with UTF-8 BOM)
 
 There is no linter, formatter or CI: rely on `swift test` plus a warning-free `xcodebuild`.
-See `AGENTS.md` for porting gotchas and behaviour-parity notes with the Python app.
